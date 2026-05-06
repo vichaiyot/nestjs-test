@@ -21,7 +21,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
       },
     ]),
 
-    ConfigModule, // เผื่อ module ยังไม่ global
+    ConfigModule,
 
     JwtModule.registerAsync({
       imports: [ConfigModule],
